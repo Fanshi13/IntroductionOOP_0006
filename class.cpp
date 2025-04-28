@@ -12,4 +12,25 @@ private:
 
 public:
     void input_data()
+    {
+        cout << "Masukkan nama mobil: ";
+        cin >> nama_mobil;
+        cout << "Masukkan tipe mobil: ";
+        cin >> tipe_mobil;
+        cout << "Masukkan harga mobil: ";
+        cin >> harga_mobil;
+    }
+    void output_data()
+    {
+        cout << "Harga mobil = " << harga_mobil << endl;
+    }
+};
+
+int main()
+{
+    Mobil rx7;
+    rx7.input_data();
+    cout << "Nama mobil = " << rx7.nama_mobil << endl;
+    cout << "Tipe mobil = " << rx7.nama_mobil << endl;
+    rx7.output_data();
 };
