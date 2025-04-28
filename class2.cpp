@@ -16,4 +16,12 @@ public:
         cout << "Masukkan lebar = ";
         cin >> lebar;
     }
+    void output_data()
+    {
+        cout << " Tampilkan luas = " << luas << endl;
+    }
+    void hitung_luas()
+    {
+        luas = panjang * lebar;
+    }
 };
