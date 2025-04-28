@@ -9,4 +9,7 @@ public:
 
 private:
     int harga_mobil;
+
+public:
+    void input_data()
 };
